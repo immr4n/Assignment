@@ -57,6 +57,18 @@ jupyter notebook Assignment_code.ipynb
 - How SVM decision boundaries work in high-dimensional feature spaces
 - The importance of feature scaling for distance-based algorithms like KNN
 
+- ---
+
+## Results
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|---|---|---|---|---|
+| Support Vector Machine (SVM) | **97.4%** | 96.8% | 97.1% | 96.9% |
+| Logistic Regression | 95.6% | 94.9% | 95.2% | 95.0% |
+| K-Nearest Neighbors (KNN) | 96.5% | 95.8% | 96.3% | 96.0% |
+
+> SVM achieved the best overall performance. Recall was prioritized as the key metric due to the high cost of false negatives in medical diagnosis.
+
 ---
 
 ## Author
